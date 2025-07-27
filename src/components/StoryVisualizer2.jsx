@@ -346,6 +346,20 @@ const StoryVisualizer = () => {
                     </Card>
                 </div>
             </div>
+            
+            <footer className="mt-16 text-center">
+                <p className="text-slate-600 text-sm">
+                    Made with ❤️ by{' '}
+                    <a 
+                        href="https://github.com/tahatafa" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                    >
+                        Taha Tafa
+                    </a>
+                </p>
+            </footer>
         </div>
     );
 };
